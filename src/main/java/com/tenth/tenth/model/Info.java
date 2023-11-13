@@ -24,7 +24,7 @@ public class Info {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public String setFirstName() {
+	public String getFirstName() {
 		return FirstName;
 	}
 	public void setFirstName(String FirstName) {
@@ -33,7 +33,7 @@ public class Info {
 	public String getLastName() {
 		return LastName;
 	}
-	public void LastName(String LastName) {
+	public void setLastName(String LastName) {
 		this.LastName = LastName;
 	}
 
